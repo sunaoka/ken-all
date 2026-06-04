@@ -47,7 +47,7 @@ $ go get github.com/inouet/ken-all
 データを取得して解凍
 
 ```
-$ wget --quiet https://www.post.japanpost.jp/zipcode/dl/kogaki/zip/ken_all.zip
+$ wget --quiet https://www.post.japanpost.jp/service/search/zipcode/download/kogaki/zip/ken_all.zip
 
 $ unzip ken_all.zip
 ```
@@ -173,4 +173,3 @@ Flags:
 
 * [郵便番号データダウンロード](http://www.post.japanpost.jp/zipcode/download.html)
 * [郵便番号データの説明](http://www.post.japanpost.jp/zipcode/dl/readme.html)
-
